@@ -1,8 +1,8 @@
-# Team mockup
+# Team workflow mockup
 
-### List of team developers:
+## Description:
 
-1))  Iriza7=)
-I am still especting the commits to come out from the rabbit hole...
-With songs we can force all things)
+## GitHub nicknames list of developers team:
+* [iriza7](https://github.com/iriza7)
 
+## Code convention:
