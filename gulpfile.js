@@ -11,7 +11,7 @@ gulp.task('sass', function() {
 });
 
 gulp.task('pug', function() {
-    gulp.src('./src/templates/**/*.pug')
+    gulp.src('./src/templates/index.pug')
         .pipe( pug() )
         .pipe( gulp.dest('build/') );
 });
