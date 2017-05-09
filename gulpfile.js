@@ -9,7 +9,8 @@ gulp.task('sass', function() {
       // includePaths: require('node-normalize-scss').with('other/path', 'another/path') 
       // - or - 
       includePaths: require('node-normalize-scss').includePaths
-    } )
+    } ))
+        .pipe( sass())
         .pipe( autopref() )
         .pipe( gulp.dest('build/css') );
 });
