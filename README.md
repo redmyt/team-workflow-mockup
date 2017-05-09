@@ -15,3 +15,9 @@ HTML, CSS, pug, scss, JSON, Gulp, NPM, Git
 * [Vasyl](https://github.com/Banderstadt)
 
 ## Code convention:
+
+* Use 4 spaces indentation;
+
+* Use FlexBox layouts
+
+* Name mask for branches US[numberOfSection]-[NameOfSection]_branch
