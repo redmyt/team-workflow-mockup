@@ -1,0 +1,26 @@
+{
+  "name": "team-workflow-mockup",
+  "version": "1.0.0",
+  "description": "* [iriza7](https://github.com/iriza7)\r * [Vasyl](https://github.com/Banderstadt)",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmytro-revak/team-workflow-mockup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmytro-revak/team-workflow-mockup/issues"
+  },
+  "homepage": "https://github.com/dmytro-revak/team-workflow-mockup#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0"
+  }
+}
