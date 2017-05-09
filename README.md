@@ -20,4 +20,4 @@ HTML, CSS, pug, scss, JSON, Gulp, NPM, Git
 
 * Use FlexBox layouts
 
-* Name mask for branches US[numberOfSection]-[NameOfSection]_branch
+* Name mask for branches US[numberOfSection]-[nameOfSection]_branch
