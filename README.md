@@ -13,6 +13,7 @@ HTML, CSS, pug, scss, JSON, Gulp, NPM, Git
 * [Dmytro](https://github.com/dmytro-revak)
 * [Iryna](https://github.com/iriza7)
 * [Vasyl](https://github.com/Banderstadt)
+* [Jana](https://github.com/JanaStepanchak)
 
 ## Code convention:
 
