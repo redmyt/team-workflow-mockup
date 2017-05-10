@@ -4,6 +4,7 @@ body {
 
 a {
     text-decoration: none;
+    cursor: pointer;
     color: inherit;
 }
 
@@ -15,4 +16,15 @@ figure {
     img {
         width: 100%;
     }
+}
+
+button {
+    box-shadow: none;
+    border: none;
+    outline: none;
+    font-family: inherit;
+}
+
+.flex {
+    display: flex;
 }
