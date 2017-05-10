@@ -1,7 +1,7 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var pug = require('gulp-pug');
-var autopref = require('gulp-autoprefixer');
+var gulp = require('gulp'),
+    sass = require('gulp-sass'),
+    pug = require('gulp-pug'),
+    autopref = require('gulp-autoprefixer');
 
 gulp.task('sass', function() {
     gulp.src('./src/sass/main.scss')
