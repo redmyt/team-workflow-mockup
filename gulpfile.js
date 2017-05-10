@@ -19,9 +19,14 @@ gulp.task('pug', function() {
         .pipe( gulp.dest('build/') );
 });
 
+gulp.task('fonts', function() {
+    gulp.src('./src/fonts/*')
+        .pipe( gulp.dest('build/fonts/') );
+});
+
 gulp.task('watch', function() {
     gulp.watch('src/sass/**/*.scss', ['sass']);
     gulp.watch('src/templates/**/*.pug', ['pug']);
 });
 
-gulp.task('build', ['sass', 'pug']);
+gulp.task('build', ['sass', 'pug', 'fonts']);
