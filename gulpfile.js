@@ -2,7 +2,8 @@ var gulp = require('gulp'),
     sass = require('gulp-sass'),
     pug = require('gulp-pug'),
     autopref = require('gulp-autoprefixer'),
-    imagemin = require('gulp-imagemin');
+    imagemin = require('gulp-imagemin'),
+    cleanCSS = require('gulp-clean-css');
 
 gulp.task('sass', function() {
     gulp.src('./src/sass/main.scss')
@@ -10,8 +11,9 @@ gulp.task('sass', function() {
             outputStyle: 'compressed',
             includePaths: require('node-normalize-scss').includePaths
         }) )
-        .pipe( sass())
+        .pipe( sass() )
         .pipe( autopref() )
+        // .pipe( cleanCSS() )
         .pipe( gulp.dest('build/css') );
 });
 
