@@ -2,7 +2,7 @@
 
 ## Description:
 Implementation of the front-end part of an Company website.
-The wesite have modern design and include popular widgets.
+The website have modern design and include popular widgets.
 It is great for software company, build agency, personal portfolio and product websites
 
 ## Used Technologies/Tools:
