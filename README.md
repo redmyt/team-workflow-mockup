@@ -22,3 +22,13 @@ HTML, CSS, pug, scss, JSON, Gulp, NPM, Git
 * Use FlexBox layouts
 
 * Name mask for branches US[numberOfSection]-[nameOfSection]_branch
+
+* Use lower-case and hyphens "-" for .scss and .pug files and folders
+
+* Use "the same line bracer style" for .js files
+
+* Use double quotes syntax
+
+* Implement two person code peer review
+
+* Deprecated nonsense commit messages
