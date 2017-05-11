@@ -24,10 +24,10 @@ HTML, CSS, pug, scss, JSON, Gulp, NPM, Git
 
 * Use lower-case and hyphens "-" for .scss and .pug files and folders
 
-* Use "the same line bracer style" for .js files
+* Use "the same line braces style" for .js files
 
 * Use double quotes syntax
 
-* Implement two person code peer review
+* Implement two person code peer-review
 
 * Deprecated nonsense commit messages
