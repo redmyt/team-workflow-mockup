@@ -8,7 +8,6 @@ It is great for software company, build agency, personal portfolio and product w
 ## Used Technologies/Tools:
 HTML, CSS, pug, scss, JSON, Gulp, NPM, Git
 
-
 ## GitHub nicknames list of developers team:
 * [Dmytro](https://github.com/dmytro-revak)
 * [Iryna](https://github.com/iriza7)
