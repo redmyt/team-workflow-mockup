@@ -1,8 +1,29 @@
 .header {
+    position: relative;
     background: {
         image: url("../images/header-background.jpg");
         size: cover;
         repeat: no-repeat;
+    }
+
+    &::before {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        content: "";
+        width: 0;
+        height: 0;
+        border-bottom: 86px solid #fff;
+        border-right: 680px solid transparent;
+    }
+
+    &::after {
+        @extend .header::before;
+        border-right: none;
+        left: auto;
+        right: 0;
+        border-bottom: 86px solid #fff;
+        border-left: 680px solid transparent;
     }
 }
 
