@@ -1,9 +1,13 @@
 header.header
-    nav.navigation
-        div.logo
-        ul.navigation-list
-            each item in ['HOME', 'ABOUT US', 'PORTFOLIO', 'PRICING', 'TEAM', 'BLOG', 'CONTACT']
-                li.navigation-item=item
+    nav.navigation.flex
+        figure.logo.flex
+            img.logo-picture(src="images/logo.png" alt="logo picture")
+        ul.navigation-list.flex
+            li.navigation-item.active
+                a.navigation-link HOME
+            each item in ['ABOUT US', 'PORTFOLIO', 'PRICING', 'TEAM', 'BLOG', 'CONTACT']
+                li.navigation-item
+                    a.navigation-link=item
     section.welcome-section
         div.button-wrapper
             button.left-button
