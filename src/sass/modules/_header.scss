@@ -5,6 +5,7 @@
         size: cover;
         repeat: no-repeat;
     }
+    font-size: 12px;
 
     &::before {
         position: absolute;
@@ -27,24 +28,35 @@
     }
 }
 
+
+.logo {
+    height: 50px;
+}
+
 .navigation {
-    padding: 2% 13%;
+    padding: 20px 19.5%;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .navigation-list {
     padding: 0;
+    margin: 0;
     list-style: none;
     justify-content: space-around;
     align-items: center;
 }
 
 .navigation-item {
+    box-sizing: border-box;
     margin: 0 15px;
-    padding: 10px 0;
+    padding: 0 0 20px 0;
     color: $binoWhite;
     border-bottom: 2px solid transparent;
+
+    &:last-child {
+        margin: 0 0 0 15px;
+    }
 
     &:hover {
         border-bottom: 2px solid $binoRed;
