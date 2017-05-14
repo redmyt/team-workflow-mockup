@@ -8,10 +8,10 @@ header.header
             each item in ['ABOUT US', 'PORTFOLIO', 'PRICING', 'TEAM', 'BLOG', 'CONTACT']
                 li.navigation-item
                     a.navigation-link=item
-    section.welcome-section
-        div.button-wrapper
-            button.left-button
-        section.welcome-info-section
+    section.welcome-section.flex
+        div.button-wrapper.flex
+            button(type="button").left-btn left
+        section.welcome-info-section.flex
             h4.tagline-heading.
                 Our Clients Are Our First Priority
             h1.welcome-heading.
@@ -19,10 +19,10 @@ header.header
             p.welcome-description.
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum esse delectus, placeat, aut obcaecati doloribus, quo quia assumenda officiis praesentium molestiae. Ab vel quis ducimus, aliquid. Quibusdam, optio quod ratione.
             section.welcome-buttons-wrapper
-                button(type="button").get-started-btn
-                button(type="button").learn-more-btn
-        div.button-wrapper
-            button(type="button").right-btn
+                button(type="button").get-started-btn GET STARTED NOW
+                button(type="button").learn-more-btn LEARN MORE
+        div.button-wrapper.flex
+            button(type="button").right-btn right
     div.anchor-wrapper
         a.anchor-link
             img(src="images/anchor-icon.png" alt="anchor icon")

@@ -22,7 +22,7 @@
 .navigation-item {
     margin: 0 15px;
     padding: 10px 0;
-    color: #fff;
+    color: $binoWhite;
     border-bottom: 2px solid transparent;
 
     &:hover {
@@ -32,4 +32,59 @@
     &.active {
         color: $binoRed;
     }
+}
+
+.welcome-section {
+    padding: 5% 0;
+    justify-content: space-between;
+}
+
+.button-wrapper {
+    justify-content: center;
+    align-items: center;
+    padding: 0 2%;
+}
+
+.welcome-info-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+    color: $binoWhite;
+}
+
+.tagline-heading {
+    font-size: 20px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.welcome-heading {
+    font-size: 52px;
+    margin: 20px;
+}
+
+.welcome-description {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.get-started-btn {
+    width: 150px;
+    padding: 15px;
+    margin: 0 15px;
+    background: $binoRed;
+    border-radius: 3px;
+    color: $binoWhite;
+    font-weight: bold;
+    font-size: 13px;
+    box-sizing: content-box;
+    border: 2px solid transparent;
+}
+
+.learn-more-btn {
+    @extend .get-started-btn;
+    background: transparent;
+    border: 2px solid $binoWhite;
 }
