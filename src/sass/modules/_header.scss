@@ -9,26 +9,27 @@
         repeat: no-repeat;
     }
     font-size: 12px;
+    overflow-x: hidden;
 
-    // &::before {
-    //     position: absolute;
-    //     left: 0;
-    //     bottom: 0;
-    //     content: "";
-    //     width: 0;
-    //     height: 0;
-    //     border-bottom: 86px solid #fff;
-    //     border-right: 680px solid transparent;
-    // }
+    &::before {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        content: "";
+        width: 0;
+        height: 0;
+        border-bottom: 130px solid #fff;
+        border-right: 900px solid transparent;
+    }
 
-    // &::after {
-    //     @extend .header::before;
-    //     border-right: none;
-    //     left: auto;
-    //     right: 0;
-    //     border-bottom: 86px solid #fff;
-    //     border-left: 680px solid transparent;
-    // }
+    &::after {
+        @extend .header::before;
+        border-right: none;
+        left: auto;
+        right: 0;
+        border-bottom: 130px solid #fff;
+        border-left: 900px solid transparent;
+    }
 }
 
 
