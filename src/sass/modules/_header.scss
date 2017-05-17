@@ -58,16 +58,25 @@
 }
 
 .welcome-slider-button-wrapper {
-    justify-content: center;
     align-items: center;
     padding: 0 2.5%;
+}
+
+.welcome-slider-btn {
+    width: 35px;
+    height: 35px;
+    background-color: $binoGrey;
+
+    &:hover {
+        background-color: $binoRed;
+    }
 }
 
 .welcome-info-section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    flex-basis: 50%;
     text-align: center;
     color: $binoWhite;
 }
