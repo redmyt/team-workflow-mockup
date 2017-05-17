@@ -1,7 +1,6 @@
 .header {
     position: relative;
-    width: 100%;
-    padding: 20px 0 260px 0;
+    padding-top: 20px;
     background: {
         image: url("../images/header-background.jpg");
         size: cover;
@@ -9,29 +8,7 @@
         repeat: no-repeat;
     }
     font-size: 12px;
-    overflow-x: hidden;
-
-    &::before {
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        content: "";
-        width: 0;
-        height: 0;
-        border-bottom: 130px solid #fff;
-        border-right: 900px solid transparent;
-    }
-
-    &::after {
-        @extend .header::before;
-        border-right: none;
-        left: auto;
-        right: 0;
-        border-bottom: 130px solid #fff;
-        border-left: 900px solid transparent;
-    }
 }
-
 
 .logo {
     height: 50px;
@@ -58,6 +35,10 @@
     color: $binoWhite;
     border-bottom: 2px solid transparent;
 
+    &:first-child {
+        margin: 0 15px 0 0;
+    }
+
     &:last-child {
         margin: 0 0 0 15px;
     }
@@ -76,10 +57,10 @@
     justify-content: space-between;
 }
 
-.button-wrapper {
+.welcome-slider-button-wrapper {
     justify-content: center;
     align-items: center;
-    padding: 0 2%;
+    padding: 0 2.5%;
 }
 
 .welcome-info-section {
@@ -104,7 +85,7 @@
 }
 
 .welcome-description {
-    width: 30vw;
+    width: 75%;
     font-size: 14px;
     line-height: 24px;
 }
@@ -136,7 +117,7 @@
     }
 }
 
-.welcome-buttons-wrapper {
+.welcome-continue-buttons-wrapper {
     padding-top: 70px;
     text-align: center;
 }
@@ -158,4 +139,44 @@
     @extend .get-started-btn;
     background: transparent;
     border: 2px solid $binoWhite;
+}
+
+.anchor-wrapper {
+    width: 75px;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: -38px;
+    border-radius: 50%;
+    background-color: #f4f5f9;
+    border: 5px solid rgba(244, 245, 249, 0.3);
+    background-clip: padding-box;
+    z-index: 10;
+
+        &::before {
+        position: relative;
+        bottom: 193%;
+        content: "";
+        width: 0;
+        height: 0;
+        border-bottom: 250px solid white;
+        border-right: 2500px solid transparent;
+    }
+
+    &::after {
+        // @extend .anchor-wrapper::before;
+        border-right: none;
+        position: relative;
+        content: "";
+                width: 0;
+        height: 0;
+        bottom: 193%;
+        border-bottom: 250px solid white;
+        border-left: 2500px solid transparent;
+    }
 }
