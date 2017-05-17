@@ -1,6 +1,6 @@
 .header {
     position: relative;
-    padding-top: 20px;
+    padding: 20px 0 250px 0;
     background: {
         image: url("../images/header-background.jpg");
         size: cover;
@@ -122,23 +122,23 @@
     text-align: center;
 }
 
-.get-started-btn {
+.welcome-continue-btn {
     width: 150px;
     padding: 15px;
     margin: 0 15px;
-    background: $binoRed;
     border-radius: 3px;
-    color: $binoWhite;
     font-weight: bold;
     font-size: 13px;
     box-sizing: content-box;
-    border: 2px solid transparent;
-}
-
-.learn-more-btn {
-    @extend .get-started-btn;
+    color: $binoWhite;
     background: transparent;
     border: 2px solid $binoWhite;
+    cursor: pointer;
+
+    &:hover {
+        background: $binoRed;
+        border: 2px solid transparent;
+    }
 }
 
 .anchor-wrapper {
