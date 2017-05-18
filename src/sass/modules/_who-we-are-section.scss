@@ -10,9 +10,11 @@
 }
 
 .item-image-heading-section {
-    @extend .who-we-are-item;
-    width: auto;
+    flex-direction: column;
+    align-items: center;
+
     &:hover {
+        
         .item-image-wrapper {
             transform: rotate(45deg);
             border: 2px solid $binoRed;

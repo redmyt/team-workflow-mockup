@@ -4,7 +4,7 @@
     background: {
         image: url("../images/header-background.jpg");
         size: cover;
-        position: center center;
+        position: center;
         repeat: no-repeat;
     }
     font-size: 12px;
@@ -74,7 +74,6 @@
 
 .welcome-info-section {
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     flex-basis: 50%;
     text-align: center;
@@ -97,6 +96,7 @@
     width: 75%;
     font-size: 14px;
     line-height: 24px;
+    margin: 46px 0 0 0;
 }
 
 .separator {
@@ -104,7 +104,6 @@
     position: relative;
     height: 8px;
     width: 8px;
-    margin: 0 0 46px 0;
     background: $binoRed;
     border-radius: 50%;
 
@@ -165,27 +164,21 @@
     background-color: #f4f5f9;
     border: 5px solid rgba(244, 245, 249, 0.3);
     background-clip: padding-box;
-    z-index: 10;
 
-        &::before {
+    &::before {
         position: relative;
         bottom: 193%;
         content: "";
         width: 0;
         height: 0;
+        z-index: -1;
         border-bottom: 250px solid white;
         border-right: 2500px solid transparent;
     }
 
     &::after {
-        // @extend .anchor-wrapper::before;
+        @extend .anchor-wrapper::before;
         border-right: none;
-        position: relative;
-        content: "";
-                width: 0;
-        height: 0;
-        bottom: 193%;
-        border-bottom: 250px solid white;
         border-left: 2500px solid transparent;
     }
 }
