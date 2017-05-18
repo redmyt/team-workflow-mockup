@@ -8,7 +8,7 @@
 }
 
 .recent-work-menu-wrapper {
-justify-content: center;
+  justify-content: center;
 }
 
 .menu-link {
@@ -17,5 +17,14 @@ justify-content: center;
 
 .menu-item {
   list-style-type: none;
-  border-right: 1px solid black;
+  border-right: 1px solid $binoGrey;
+}
+
+.recent-work-content-images {
+  width: 25%;
+}
+
+.recent-work-content {
+  flex-wrap: wrap;
+  flex-direction: row;
 }
