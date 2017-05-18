@@ -4,4 +4,10 @@ section.recent-work-section
     h5.recent-works-description.flex.
         It has survived not only five centuries, but also the leap scrambled it to make a type.
     span.separator.
-    ul.recent-works-menu.flex.
+    div.recent-work-menu-wrapper.flex
+        ul.recent-works-menu.flex
+            li.menu-item
+                a.menu-link ALL
+                    each item in ['PRINT DESIGN', 'ANIMATION', 'ART', 'WEB DESIGN', 'PHOTOGRAPHY', 'VIDEO']
+                        li.menu-item
+                            a.menu-link=item
