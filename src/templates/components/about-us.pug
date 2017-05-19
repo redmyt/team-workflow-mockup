@@ -1,8 +1,14 @@
 section.about-us-section
-
-    figure.about-us-section-img
-        img(src="images/monitor.png")
-    div.about-us-section-content
-        p About us
-        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi fugit molestias quidem reprehenderit sapiente! Doloremque illo mollitia perferendis placeat porro provident reiciendis sint suscipit voluptate. Dolor dolorem quasi repellendus soluta! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi fugit molestias quidem reprehenderit sapiente! Doloremque illo mollitia perferendis placeat porro provident reiciendis sint suscipit voluptate. Dolor dolorem quasi repellendus soluta!
-            |
+    .about-us-wrapper.flex
+        .about-us-image.flex
+            img(src='images/monitor.png')
+        .about-us-content.flex
+            .about-us-content-title.flex
+                .pg
+                .about-us-content-title-text ABOUT US
+            .about-us-content-text
+                p
+                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi fugit molestias quidem reprehenderit sapiente! Doloremque illo mollitia perferendis placeat porro provident reiciendis sint suscipit voluptate. Dolor dolorem quasi repellendus soluta!
+                p
+                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi fugit molestias quidem reprehenderit sapiente! Doloremque illo mollitia perferendis placeat porro provident reiciendis sint suscipit voluptate. Dolor dolorem quasi repellendus soluta!
+                input.buttonBino(type="button" value="BROWSER OUR WORK")
