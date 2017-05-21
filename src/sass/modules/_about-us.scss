@@ -9,14 +9,17 @@
     padding-bottom: 147px;
 }
 
-.about-us-content-title{
-    flex-direction: row;
+.about-us-content{
+    width: 34%;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 142px;
+    padding-bottom: 147px;
+    padding-left: 78px;
 }
 
-.pg{
-    height: 36px;
-    width: 6px;
-    background-color: $binoRed;
+.about-us-content-title{
+    flex-direction: row;
 }
 
 .about-us-content-title-text{
@@ -26,15 +29,7 @@
     line-height: 1.2;
     text-align: left;
     color: $binoDarkGrey2;
-}
-
-.about-us-content{
-    width: 34%;
-    justify-content: flex-start;
-    flex-direction: column;
-    padding-top: 142px;
-    padding-bottom: 147px;
-    padding-left: 78px;
+    text-transform: uppercase;
 }
 
 .about-us-content-text{

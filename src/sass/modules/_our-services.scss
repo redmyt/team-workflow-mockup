@@ -1,4 +1,94 @@
-.our-services-section{
-    display: flex;
-    justify-content: center;
+.our-services-wrapper{
+    justify-content: flex-start;
+    position: relative;
+    z-index: 1;
 }
+
+.our-services-image{
+    background-image: url("../images/tablet.png");
+    width: 46%;
+    height: 765px;
+    background-size: cover;
+    z-index: 2;
+}
+
+.our-services-content{
+    background-image: url("../images/background.png");
+    width: 54%;
+    height: 765px;
+    background-size: cover;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 2;
+}
+
+.our-services-content-title{
+    font-size: 36px;
+    font-family: "SourceSansPro";
+    color: $binoWhite2;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 155px;
+    padding-right: 83px;
+}
+
+.content-block{
+    flex-direction: column;
+    align-items: flex-end;
+}
+.content-block-title{
+    font-size: 18px;
+    font-family: "OpenSans";
+    color: $binoRed;
+    line-height: 1.611;
+    text-transform: uppercase;
+    padding-top: 70px;
+    padding-right: 83px;
+}
+
+.content-block-text{
+    font-size: 14px;
+    font-family: "SourceSansPro";
+    color: $binoLightGrey;
+    line-height: 2.071;
+    text-align: right;
+    padding-right: 83px;
+}
+
+.our-services-ellipces{
+    width: 56%;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: 265px;
+    position: absolute;
+    z-index: 111;
+}
+
+.ellipse_1 {
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.251;
+    width: 73px;
+    height: 73px;
+    margin-bottom: 70px;
+
+    z-index: 112;
+}
+
+.ellipse_2{
+    border-radius: 50%;
+    background-color: $binoWhite2;
+    width: 64px;
+    height: 64px;
+
+    z-index: 113;
+}
+
+.icon {
+    width: 27px;
+    height: 22px;
+    z-index: 114;
+}
+
