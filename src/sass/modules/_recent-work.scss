@@ -15,12 +15,16 @@
 
 .menu-link {
   color: $binoGrey;
-  padding-right: 20px;
+  display: inline-block;
+  transform: skew(29deg);
+  padding-right: 18px;
 }
 
 .menu-item {
   list-style-type: none;
-  border-right: 1px solid $binoGrey;
+  border-right: 2px solid $binoGrey;
+  transform: skew(-30deg);
+  line-height: 10px;
 }
 
 .recent-work-content-images {
@@ -31,3 +35,17 @@
   flex-wrap: wrap;
   flex-direction: row;
 }
+
+
+li {
+  margin-right: 18px;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+
+
+
+
