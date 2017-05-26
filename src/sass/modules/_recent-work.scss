@@ -5,7 +5,7 @@
 }
 
 .recent-works-description {
-  color: $binoGrey;
+  color: #999999;
   justify-content: center;
 }
 
@@ -14,7 +14,6 @@
 }
 
 .menu-link {
-  color: $binoGrey;
   display: inline-block;
   transform: skew(29deg);
   padding-right: 18px;
@@ -22,7 +21,7 @@
 
 .menu-item {
   list-style-type: none;
-  border-right: 2px solid $binoGrey;
+  border-right: 2px solid #999999;
   transform: skew(-30deg);
   line-height: 10px;
 }
@@ -34,15 +33,22 @@
 .recent-work-content {
   flex-wrap: wrap;
   flex-direction: row;
+  padding-top: 50px;
 }
 
 
 li {
+  color: #999999;
   margin-right: 18px;
 }
 
 li:last-child {
   border-right: none;
+}
+
+li:hover {
+  color: red;
+  font-weight: bold;
 }
 
 
