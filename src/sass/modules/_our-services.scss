@@ -89,6 +89,11 @@
     border: 5px solid rgba(244, 245, 249, 0.3);
     background-clip: padding-box;
     z-index: 50;
+    cursor: pointer;
+
+    &:hover{
+        border: 5px solid $binoRed;
+    }
 }
 
 .ellipse_1{
