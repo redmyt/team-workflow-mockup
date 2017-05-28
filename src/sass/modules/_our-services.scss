@@ -5,18 +5,22 @@
 }
 
 .our-services-image{
-    background-image: url("../images/tablet.png");
+    background: {
+        image: url("../images/tablet.png");
+        size: cover;
+        position: center;
+        repeat: no-repeat;
+    }
     width: 46%;
     height: 765px;
-    background-size: cover;
     z-index: 2;
 }
 
 .our-services-content{
     background-image: url("../images/background.png");
+    background-size: cover;
     width: 54%;
     height: 765px;
-    background-size: cover;
     flex-direction: column;
     align-items: flex-end;
     z-index: 2;
