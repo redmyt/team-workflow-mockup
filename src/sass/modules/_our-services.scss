@@ -30,7 +30,7 @@
     line-height: 1.2;
     text-align: left;
     text-transform: uppercase;
-    padding-top: 155px;
+    padding-top: 150px;
     margin-right: 83px;
 
     .rectangle{
@@ -42,6 +42,17 @@
 .content-block{
     flex-direction: column;
     align-items: flex-end;
+
+    .ellipse_0{
+        position: absolute;
+        top: 280px;
+        width: 73px;
+        height: 73px;
+        border-radius: 50%;
+        background-color: #f4f5f9;
+        border: 5px solid rgba(244, 245, 249, 0.3);
+        background-clip: padding-box;
+    }
 }
 .content-block-title{
     font-size: 18px;
@@ -61,38 +72,31 @@
     padding-right: 83px;
 }
 
-.our-services-ellipces{
-    width: 56%;
-    align-items: flex-end;
-    flex-direction: column;
-    margin-top: 265px;
+.ellipse {
     position: absolute;
-    z-index: 111;
-}
+    width: 75px;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: -8%;
 
-.ellipse_1 {
     border-radius: 50%;
-    background-color: rgb(255, 255, 255);
-    opacity: 0.251;
-    width: 73px;
-    height: 73px;
-    margin-bottom: 70px;
-
-    z-index: 112;
+    background-color: #f4f5f9;
+    border: 5px solid rgba(244, 245, 249, 0.3);
+    background-clip: padding-box;
+    z-index: 50;
 }
 
+.ellipse_1{
+    top: 265px;
+}
 .ellipse_2{
-    border-radius: 50%;
-    background-color: $binoWhite2;
-    width: 64px;
-    height: 64px;
-
-    z-index: 113;
+    top: 406px;
 }
-
-.icon {
-    width: 27px;
-    height: 22px;
-    z-index: 114;
+.ellipse_3{
+    top: 547px;
 }
-
