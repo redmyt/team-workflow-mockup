@@ -5,21 +5,22 @@
 .about-us-image{
     width: 45%;
     justify-content:  flex-end;
-    padding-top: 142px;
-    padding-bottom: 147px;
+    padding: 142px 0 147px 0;
 }
 
 .about-us-content{
     width: 34%;
     justify-content: flex-start;
     flex-direction: column;
-    padding-top: 142px;
-    padding-bottom: 147px;
-    padding-left: 78px;
+    padding: 142px 0 147px 78px;
 }
 
 .about-us-content-title{
     flex-direction: row;
+
+    .rectangle{
+        margin: 0 30px 0 0;
+    }
 }
 
 .about-us-content-title-text{

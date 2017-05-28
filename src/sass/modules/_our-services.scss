@@ -31,7 +31,12 @@
     text-align: left;
     text-transform: uppercase;
     padding-top: 155px;
-    padding-right: 83px;
+    margin-right: 83px;
+
+    .rectangle{
+        margin: 0 0 0 30px;
+    }
+
 }
 
 .content-block{
@@ -44,8 +49,7 @@
     color: $binoRed;
     line-height: 1.611;
     text-transform: uppercase;
-    padding-top: 70px;
-    padding-right: 83px;
+    padding: 70px 83px 0 0;
 }
 
 .content-block-text{
