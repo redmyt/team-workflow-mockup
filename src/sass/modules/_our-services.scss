@@ -50,9 +50,9 @@
     align-items: flex-end;
     margin-top: 70px;
     padding-left: 30px;
-    cursor: pointer;
 
     &:hover {
+        cursor: pointer;
         border-left: 5px solid $binoRed;
     }
 }
