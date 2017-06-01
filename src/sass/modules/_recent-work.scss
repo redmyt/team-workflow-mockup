@@ -1,0 +1,57 @@
+.recent-works-title {
+  justify-content: center;
+  padding-top: 140px;
+  color: $binoGrey;
+}
+
+.recent-works-description {
+  color: #999999;
+  justify-content: center;
+}
+
+.recent-work-menu-wrapper {
+  justify-content: center;
+}
+
+.menu-link {
+  display: inline-block;
+  transform: skew(29deg);
+  padding-right: 18px;
+}
+
+.menu-item {
+  list-style-type: none;
+  border-right: 2px solid #999999;
+  transform: skew(-30deg);
+  line-height: 10px;
+}
+
+.recent-work-content-images {
+  width: 25%;
+}
+
+.recent-work-content {
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-top: 50px;
+}
+
+
+li {
+  color: #999999;
+  margin-right: 18px;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li:hover {
+  color: red;
+  font-weight: bold;
+}
+
+
+
+
+
