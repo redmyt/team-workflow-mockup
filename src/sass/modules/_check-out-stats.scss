@@ -32,7 +32,9 @@
     align-items: center;
     color: rgb(255, 255, 255)
 }
-
+.check-out-content{
+    padding-top: 40px;
+}
 .check-out-number {
   margin-top: 15%;
   font-size: 17px;
@@ -44,7 +46,8 @@
 }
 
 .check-content{
-        font-size: 10px; 
+        font-size: 10px;
+        line-height: 2.5;
         color: rgb(244, 245, 249);
         text-align: center;
 }
