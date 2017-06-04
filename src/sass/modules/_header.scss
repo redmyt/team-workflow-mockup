@@ -1,0 +1,199 @@
+.header {
+    position: relative;
+    padding: 20px 0 250px 0;
+    background: {
+        image: url("../images/header-background.jpg");
+        size: cover;
+        position: center;
+        repeat: no-repeat;
+    }
+    font-size: 12px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.navigation {
+    padding: 0 20%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.navigation-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation-item {
+    box-sizing: border-box;
+    margin: 0 15px;
+    padding: 0 0 20px 0;
+    color: $binoWhite;
+    border-bottom: 2px solid transparent;
+
+    &:first-child {
+        margin: 0 15px 0 0;
+    }
+
+    &:last-child {
+        margin: 0 0 0 15px;
+    }
+
+    &:hover {
+        border-bottom: 2px solid $binoRed;
+    }
+
+    &.active {
+        color: $binoRed;
+    }
+}
+
+.welcome-section {
+    padding: 180px 0 0 0;
+    justify-content: space-between;
+}
+
+.welcome-slider-button-wrapper {
+    align-items: center;
+    padding: 0 2.5%;
+}
+
+.welcome-slider-btn {
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    background-color: $binoGrey;
+
+    &:hover {
+        background-color: $binoRed;
+
+        svg {
+            fill: $binoWhite;
+        }
+    }
+
+    &.left-arrow-btn {
+       svg {
+            transform: rotate(180deg);
+       } 
+    }
+
+    svg {
+        fill: $binoDarkGrey;
+    }
+}
+
+.welcome-info-section {
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 50%;
+    text-align: center;
+    color: $binoWhite;
+}
+
+.tagline-heading {
+    font-size: 22px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.welcome-heading {
+    font-size: 56px;
+    letter-spacing: 5px;
+    margin: 46px 0;
+}
+
+.welcome-description {
+    width: 75%;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 46px 0 0 0;
+}
+
+.separator {
+    display: inline-block;
+    position: relative;
+    height: 8px;
+    width: 8px;
+    background: $binoRed;
+    border-radius: 50%;
+
+    &::before {
+        position: absolute;
+        display: inline-block;
+        content: "";
+        height: 2px;
+        width: 5vw;
+        top: 3px;
+        right: 20px;
+        background: $binoWhite;
+    }
+
+    &::after {
+        @extend .separator::before;
+        right: auto;
+        left: 20px;
+    }
+}
+
+.welcome-continue-buttons-wrapper {
+    padding-top: 70px;
+    text-align: center;
+}
+
+.welcome-continue-btn {
+    width: 150px;
+    padding: 15px;
+    margin: 0 15px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 13px;
+    box-sizing: content-box;
+    color: $binoWhite;
+    background: transparent;
+    border: 2px solid $binoWhite;
+    cursor: pointer;
+
+    &:hover {
+        background: $binoRed;
+        border: 2px solid transparent;
+    }
+}
+
+.anchor-wrapper {
+    width: 75px;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: -38px;
+    border-radius: 50%;
+    background-color: #f4f5f9;
+    border: 5px solid rgba(244, 245, 249, 0.3);
+    background-clip: padding-box;
+
+    &::before {
+        position: relative;
+        bottom: 193%;
+        content: "";
+        width: 0;
+        height: 0;
+        z-index: -1;
+        border-bottom: 250px solid white;
+        border-right: 2500px solid transparent;
+    }
+
+    &::after {
+        @extend .anchor-wrapper::before;
+        border-right: none;
+        border-left: 2500px solid transparent;
+    }
+}
