@@ -17,6 +17,7 @@
   font-weight: bold;
   line-height: 1.2;
   text-align: center; 
+    text-transform: uppercase;
 }
 .our-pricing-opus {
   font-size: 14px;
@@ -135,8 +136,7 @@ display: flex;
   box-shadow: 0px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
   width: 145px;
   height: 46px;
-  margin: 50px 0;    
-    
+  margin: 50px 0;      
   font-size: 14px;
   font-family: "OpenSans";
   color: rgb(255, 255, 255);
@@ -146,6 +146,10 @@ display: flex;
   -moz-transform: matrix( 0.86153846153846,0,0,0.86517857142857,0,0);
   -webkit-transform: matrix( 0.86153846153846,0,0,0.86517857142857,0,0);
     -ms-transform: matrix( 0.86153846153846,0,0,0.86517857142857,0,0);
+    
+      &:hover {
+        background: #e74c3c;
+    }
 }
 
 
@@ -157,6 +161,9 @@ display: flex;
 
 .price-red{
     background: #e74c3c;
+      &:hover {
+        background: rgb(153, 153, 153);
+    }
 }
 #price-red-text{color:#e74c3c; }
 
