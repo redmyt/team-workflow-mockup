@@ -1,6 +1,6 @@
 .who-we-are-section {
     padding: 125px 20% 105px;
-    justify-content: space-between;   
+    justify-content: space-between;
 }
 
 .who-we-are-item {
@@ -14,7 +14,7 @@
     align-items: center;
 
     &:hover {
-        
+
         .item-image-wrapper {
             transform: rotate(45deg);
             border: 2px solid $binoRed;

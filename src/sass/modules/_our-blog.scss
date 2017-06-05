@@ -1,86 +1,91 @@
-.our-blogs{
+.our-blogs {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     background: rgb(231, 76, 60);
     flex-wrap: wrap;
 }
-.our-blog-square{
+
+.our-blog-square {
     width: 50%;
     height: 89%;
     position: relative;
-        
 }
 
-.our-blogs-sq{
+.our-blogs-sq {
     display: flex;
     justify-content: space-between;
-    
+
     width: 50%;
     &:hover {
         opacity: 0.65;
     }
 }
 
-.our-blog-triangle1{
-     width: 0;
+.our-blog-triangle1 {
+    width: 0;
     height: 0;
     margin-top: 25%;
     margin-left: 25%;
     border-right: 25px solid rgb(231, 76, 60);
     border-top: 35px solid transparent;
     border-bottom: 35px solid transparent;
-     position: absolute; 
+    position: absolute;
     left: -30%;
     top: 22%;
 }
-.our-blog-triangle2{
-   width: 0;
+
+.our-blog-triangle2 {
+    width: 0;
     height: 0;
     margin-top: 25%;
     margin-left: 25%;
     border-left: 25px solid rgb(231, 76, 60);
     border-top: 35px solid transparent;
     border-bottom: 35px solid transparent;
-     position: absolute; 
+    position: absolute;
     left: 73%;
     top: 22%;
     z-index: 1;
 }
-.our-blog-art{
+
+.our-blog-art {
     width: 85%;
     margin: 15% auto 0;
-  font-size: 8px;
-  font-family: "OpenSans";
-  color: rgb(255, 255, 255);
-  line-height: 1.2;
-  text-align: left;  
+    font-size: 8px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
 }
-.our-blog-h3{
-     width: 85%;
+
+.our-blog-h3 {
+    width: 85%;
     margin: 5% auto 0;
-   font-size: 13px;
-  font-family: "SourceSansPro";
-  color: rgb(255, 255, 255);
-  line-height: 1.2;
-  text-align: left;
+    font-size: 13px;
+    font-family: "SourceSansPro";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
 }
-.our-blog-p{
-     width: 85%;
+
+.our-blog-p {
+    width: 85%;
     margin: 10% auto;
-  font-size: 9px;
-  font-family: "OpenSans";
-  color: rgb(255, 255, 255);
-  line-height: 1.875;
-  text-align: left;    
+    font-size: 9px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    line-height: 1.875;
+    text-align: left;
 }
-.our-blog-read-more{
-     width: 85%;
+
+.our-blog-read-more {
+    width: 85%;
     margin: 0 auto;
-font-size: 10px;
-  font-family: "OpenSans";
-  color: rgb(255, 255, 255);
-  font-style: italic;
-  line-height: 1.333;
-  text-align: left;    
+    font-size: 10px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    line-height: 1.333;
+    text-align: left;
 }

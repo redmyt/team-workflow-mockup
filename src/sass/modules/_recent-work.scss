@@ -1,94 +1,91 @@
 .recent-works-title {
-  justify-content: center;
-  padding-top: 140px;
-  color: $binoGrey;
+    justify-content: center;
+    padding-top: 140px;
+    color: $binoGrey;
 }
 
 .recent-works-description {
-  color: #999999;
-  justify-content: center;
+    color: #999999;
+    justify-content: center;
 }
 
 .recent-work-menu-wrapper {
-  justify-content: center;
+    justify-content: center;
 }
 
 .menu-link {
-  display: inline-block;
-  transform: skew(29deg);
-  padding-right: 18px;
+    display: inline-block;
+    transform: skew(29deg);
+    padding-right: 18px;
 }
 
 .menu-item {
-  list-style-type: none;
-  border-right: 2px solid #999999;
-  transform: skew(-30deg);
-  line-height: 10px;
+    list-style-type: none;
+    border-right: 2px solid #999999;
+    transform: skew(-30deg);
+    line-height: 10px;
 }
-
 
 .recent-work-content {
-  flex-wrap: wrap;
-  flex-direction: row;
-  padding-top: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 50px;
 }
 
-
 li {
-  color: #999999;
-  margin-right: 18px;
+    color: #999999;
+    margin-right: 18px;
 }
 
 li:last-child {
-  border-right: none;
+    border-right: none;
 }
 
 li:hover {
-  color: red;
-  font-weight: bold;
+    color: red;
+    font-weight: bold;
 }
 
 .content-image {
-  max-width: 25%;
-  position: relative;
+    max-width: 25%;
+    position: relative;
 }
 
-
 .recent-work-separator {
-  color: #999999;
+    color: #999999;
 }
 
 .recent-work-content figure {
-  background: #BD4134;
+    background: #BD4134;
 }
 
 .recent-work-content figure img {
-  opacity: 100;
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+    opacity: 100;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
 .recent-work-content figure:hover .recent-work-content-images {
-  opacity: .2;
+    opacity: .2;
 }
 
 .your-brand-text {
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-  opacity: 0;
-  position: absolute;
-  bottom: -300px;
-  color: white;
-  font-size: 25px;
-  padding-left: 10%;
-  border-top: 2px solid white;
-  pointer-events: none;
-  text-align: left;
-  padding-top: 30px;
-  line-height: 10px;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    opacity: 0;
+    position: absolute;
+    bottom: -300px;
+    color: white;
+    font-size: 25px;
+    padding-left: 10%;
+    border-top: 2px solid white;
+    pointer-events: none;
+    text-align: left;
+    padding-top: 30px;
+    line-height: 10px;
 }
 
 figure:hover + .your-brand-text {
-  opacity: 1;
-  bottom: 300px;
+    opacity: 1;
+    bottom: 300px;
 }

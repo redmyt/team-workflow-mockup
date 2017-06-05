@@ -1,10 +1,10 @@
-.our-services-wrapper{
+.our-services-wrapper {
     justify-content: flex-start;
     position: relative;
     z-index: 1;
 }
 
-.our-services-image{
+.our-services-image {
     background: {
         image: url("../images/tablet.png");
         size: cover;
@@ -16,7 +16,7 @@
     z-index: 2;
 }
 
-.our-services-content{
+.our-services-content {
     background-image: url("../images/background.png");
     background-size: cover;
     width: 54%;
@@ -26,7 +26,7 @@
     z-index: 2;
 }
 
-.our-services-content-title{
+.our-services-content-title {
     padding-top: 150px;
     margin-right: 83px;
 
@@ -39,7 +39,7 @@
         text-transform: uppercase;
     }
 
-    .rectangle-block{
+    .rectangle-block {
         margin: 0 0 0 30px;
         height: 36px;
         width: 6px;
@@ -48,12 +48,12 @@
 
 }
 
-.content-block{
+.content-block {
     flex-direction: column;
     align-items: flex-end;
 }
 
-.content-item{
+.content-item {
     width: 80%;
     flex-direction: column;
     align-items: flex-end;
@@ -66,7 +66,7 @@
     }
 }
 
-.content-block-title{
+.content-block-title {
     font-size: 18px;
     font-family: "OpenSans";
     color: $binoRed;
@@ -75,7 +75,7 @@
     padding: 0 83px 0 0;
 }
 
-.content-block-text{
+.content-block-text {
     font-size: 14px;
     color: $binoLightGrey;
     line-height: 2.071;
@@ -102,20 +102,20 @@
     z-index: 50;
     cursor: pointer;
 
-    &:hover{
+    &:hover {
         border: 5px solid rgba($binoRed, 0.5);
         background-clip: padding-box;
     }
 }
 
-.ellipse_1{
+.ellipse_1 {
     top: 35%;
 }
 
-.ellipse_2{
+.ellipse_2 {
     top: 55%;
 }
 
-.ellipse_3{
+.ellipse_3 {
     top: 75%;
 }
