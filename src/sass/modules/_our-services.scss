@@ -27,18 +27,23 @@
 }
 
 .our-services-content-title{
-    font-size: 36px;
-    font-family: "SourceSansPro";
-    color: $binoWhite2;
-    font-weight: bold;
-    line-height: 1.2;
-    text-align: left;
-    text-transform: uppercase;
     padding-top: 150px;
     margin-right: 83px;
 
-    .rectangle{
+    .our-services-content-title-text {
+        font-size: 36px;
+        color: $binoWhite2;
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    .rectangle-block{
         margin: 0 0 0 30px;
+        height: 36px;
+        width: 6px;
+        background-color: $binoRed;
     }
 
 }
@@ -72,7 +77,6 @@
 
 .content-block-text{
     font-size: 14px;
-    font-family: "SourceSansPro";
     color: $binoLightGrey;
     line-height: 2.071;
     text-align: right;
@@ -99,16 +103,19 @@
     cursor: pointer;
 
     &:hover{
-        border: 5px solid $binoRed;
+        border: 5px solid rgba($binoRed, 0.5);
+        background-clip: padding-box;
     }
 }
 
 .ellipse_1{
     top: 35%;
 }
+
 .ellipse_2{
     top: 55%;
 }
+
 .ellipse_3{
     top: 75%;
 }

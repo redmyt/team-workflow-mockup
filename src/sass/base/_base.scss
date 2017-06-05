@@ -29,12 +29,11 @@ button {
     display: flex;
 }
 
-.rectangle {
-    height: 36px;
-    width: 6px;
-    background-color: $binoRed;
-}
-
 .wrapper {
     overflow: hidden;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
 }

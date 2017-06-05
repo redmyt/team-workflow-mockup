@@ -15,28 +15,36 @@
     padding: 142px 0 147px 78px;
 }
 
+.about-us-content2{
+    height: 50%;
+    align-items: flex-end;
+}
+
 .about-us-content-title{
     flex-direction: row;
+    height: auto;
+    margin-bottom: 20px;
 
-    .rectangle{
+    .about-us-content-title-text{
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+        color: $binoDarkGrey2;
+        text-transform: uppercase;
+    }
+
+    .rectangle-block{
         margin: 0 30px 0 0;
+        height: 36px;
+        width: 6px;
+        background-color: $binoRed;
     }
 }
 
-.about-us-content-title-text{
-    font-size: 36px;
-    font-family: sourceSansPro;
-    font-weight: bold;
-    line-height: 1.2;
-    text-align: left;
-    color: $binoDarkGrey2;
-    text-transform: uppercase;
-}
-
 .about-us-content-text{
-    width: 582px;
+    width: auto;
     font-size: 14px;
-    font-family: sourceSansPro;
     color: $binoLightGrey;
     line-height: 2.071;
     text-align: left;
@@ -57,6 +65,7 @@
     cursor: pointer;
 
     &:hover{
+        background-color: #BD4134;
         box-shadow: 0px 2px 4.75px 0.25px rgba(0, 0, 0, 0.35);
     }
 }
