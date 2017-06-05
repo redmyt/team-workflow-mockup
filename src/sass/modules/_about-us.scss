@@ -23,7 +23,16 @@
 .about-us-content-title{
     flex-direction: row;
     height: auto;
+    margin-bottom: 20px;
 
+    .about-us-content-title-text{
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+        color: $binoDarkGrey2;
+        text-transform: uppercase;
+    }
 
     .rectangle-block{
         margin: 0 30px 0 0;
@@ -33,20 +42,9 @@
     }
 }
 
-.about-us-content-title-text{
-    font-size: 36px;
-    font-family: sourceSansPro;
-    font-weight: bold;
-    line-height: 1.2;
-    text-align: left;
-    color: $binoDarkGrey2;
-    text-transform: uppercase;
-}
-
 .about-us-content-text{
     width: auto;
     font-size: 14px;
-    font-family: sourceSansPro;
     color: $binoLightGrey;
     line-height: 2.071;
     text-align: left;
