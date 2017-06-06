@@ -1,0 +1,282 @@
+[33mcommit b3c1af82ae1b64ac7980b19d4ea452bdb8fa31db[m
+Author: JanaStepanchak <jana.stepanchak@gmail.com>
+Date:   Tue Jun 6 09:56:00 2017 +0300
+
+    pricing end check-ot-stats
+
+[33mcommit 70446f1e92f78eac0fafd89b1a8955cb267dfdc5[m
+Author: JanaStepanchak <jana.stepanchak@gmail.com>
+Date:   Tue Jun 6 09:30:07 2017 +0300
+
+    Delete sd.css
+
+[33mcommit 1e72369648f07615df603adf33b853370646cfcf[m
+Author: iriza7 <irynabautista@gmail.com>
+Date:   Tue Jun 6 00:17:51 2017 +0300
+
+    'refactoring_gulpfile:_use_4_space_indentation'
+
+[33mcommit 0be57283d7500ebecd506f9469a46175465bd683[m
+Author: iriza7 <irynabautista@gmail.com>
+Date:   Tue Jun 6 00:13:04 2017 +0300
+
+    'refactoring_all_files:_use_4_space_indentation'
+
+[33mcommit 7de455ca32296e1eed643b66fc33314b62ddfd61[m
+Merge: 581254d 6d45fb0
+Author: Iryna <irynabautista@gmail.com>
+Date:   Mon Jun 5 23:39:12 2017 +0300
+
+    Merge pull request #9 from dmytrorevak/US02-Our-history_branch
+    
+    About-us section Hot Fix
+
+[33mcommit 6d45fb0ff797858a84421ea51f531646a688f3ad[m
+Author: iriza7 <irynabautista@gmail.com>
+Date:   Mon Jun 5 23:36:13 2017 +0300
+
+    'fix_colors,fonts,rectangle-block'
+
+[33mcommit 9d89f64a5e3e00d83c4bb7d5ff085f5ca0dc8032[m
+Author: iriza7 <irynabautista@gmail.com>
+Date:   Mon Jun 5 23:10:10 2017 +0300
+
+    'fix_rectangle'
+
+[33mcommit 6329646e81c541bf0741703c0e118d1193172a82[m
+Author: iriza7 <irynabautista@gmail.com>
+Date:   Mon Jun 5 22:21:30 2017 +0300
+
+    'fix_about-us_scss'
+
+[33mcommit 581254d78889e1ca7fcedc7ed8544c6a0702dc51[m
+Merge: 745749e 2e61b45
+Author: JanaStepanchak <jana.stepanchak@gmail.com>
+Date:   Mon Jun 5 02:51:41 2017 +0300
+
+    Merge pull request #8 from dmytrorevak/US04-Pricing___Check_Out
+    
+    Us04 pricing   check out
+
+[33mcommit 2e61b45743ceff438779d0dd0f73f2919c2d66d4[m
+Author: JanaStepanchak <jana.stepanchak@gmail.com>
+Date:   Mon Jun 5 02:48:05 2017 +0300
+
+    our blog2
+
+[33mcommit 745749ebca45000f32b61be8e01f7e5e17333158[m
+Merge: 908a421 25b983b
+Author: Vasyl <Banderstadt@users.noreply.github.com>
+Date:   Mon Jun 5 02:28:54 2017 +0300
+
+    Merge pull request #7 from dmytrorevak/US03-Recent-work_branch
+    
+    Us03 recent work branch img fix
+
+[33mcommit 25b983b3307e6cfe1f4dbefe85a479c79c876bcb[m
+Merge: e35491b 24e2a7c
+Author: Vasyl Zadorozhnyi <amdpaxton@gmail.com>
+Date:   Sun Jun 4 16:28:23 2017 +0300
+
+    Merge remote-tracking branch 'origin/US03-Recent-work_branch' into US03-Recent-work_branch
+
+[33mcommit e35491b9cda743acb60dd5a897823fdd622c2410[m
+Author: Vasyl Zadorozhnyi <amdpaxton@gmail.com>
+Date:   Sun Jun 4 16:27:42 2017 +0300
+
+    added figures to images, added img hover, added hover text
+
+[33mcommit e357890422def7f4e1717af24df296cb50933b4f[m
+Author: Vasyl Zadorozhnyi <amdpaxton@gmail.com>
+Date:   Sun Jun 4 16:23:59 2017 +0300
+
+    edited img size
+
+[33mcommit 85e708310099ee54236d872175afa2ce356606aa[m
+Author: JanaStepanchak <jana.stepanchak@gmail.com>
+Date:   Sun Jun 4 03:10:21 2017 +0300
+
+    our_blog
+
+[33mcommit 278398b21328364052954fd11a69f0d5f483d9cc[m
+Author: JanaStepanchak <jana.stepanchak@gmail.com>
+Date:   Fri Jun 2 04:25:10 2017 +0300
+
+    j4
+
+[33mcommit 22522eac638b395de47d295647619d74ec87e616[m
+Author: JanaStepanchak <jana.stepanchak@gmail.com>
+Date:   Fri Jun 2 02:59:51 2017 +0300
+
+    j3
+
+[33mcommit 79a5f05c83fffaae02d846ad14f9f83b8640b654[m
+Author: JanaStepanchak <jana.stepanchak@gmail.com>
+Date:   Fri Jun 2 02:51:01 2017 +0300
+
+    startOBproj
+
+[33mcommit 908a421c551caeb1b64ef23e2a2faf6da6c80206[m
+Author: iriza7 <irynabautista@gmail.com>
+Date:   Fri Jun 2 00:22:25 2017 +0300
+
+    'hot-fix1'
+
+[33mcommit 067f738131495d0b3f78d00736d1ac2b446044b6[m
+Author: Iryna <irynabautista@gmail.com>
+Date:   Thu Jun 1 23:31:20 2017 +0300
+
+    add bracket
+
+[33mcommit 7035b6d3ba0cc1436ba56f0ef580aec107b316f3[m
+Author: Iryna <irynabautista@gmail.com>
+Date:   Thu Jun 1 23:28:33 2017 +0300
+
+    add comma after variable name
+
+[33mcommit 59ec6c1d01001e67bacb9fd879ac14b03fdb6a61[m
+Merge: 6ef0d01 0af673c
+Author: Iryna <irynabautista@gmail.com>
+Date:   Thu Jun 1 23:18:08 2017 +0300
+
+    Merge pull request #5 from dmytrorevak/US04-Pricing___Check_Out
+    
+    US04-Pricing___Check_Out
+
+[33mcommit 0af673c8d8bb7d6badcb30f3b92f6237f0f7c778[m
+Merge: 5c074c6 6ef0d01
+Author: Iryna <irynabautista@gmail.com>
+Date:   Thu Jun 1 23:17:52 2017 +0300
+
+    Merge branch 'master' into US04-Pricing___Check_Out
+
+[33mcommit 6ef0d01dbd971dfaca0dbb0cb7b5f0aaef908167[m
+Merge: ef58c7f 24e2a7c
+Author: Iryna <irynabautista@gmail.com>
+Date:   Thu Jun 1 23:16:07 2017 +0300
+
+    Merge pull request #6 from dmytrorevak/US03-Recent-work_branch
+    
+    Us03 recent work branch
+
+[33mcommit 24e2a7cdabe07e6274c6c762d3226bcd9a2c740a[m
+Merge: 9c0c36b ef58c7f
+Author: Iryna <irynabautista@gmail.com>
+Date:   Thu Jun 1 23:15:02 2017 +0300
+
+    Merge branch 'master' into US03-Recent-work_branch
+
+[33mcommit ef58c7fec50590ed34b510032ffa7a488b0c60cf[m
+Merge: 3657059 3c518ca
+Author: Iryna <irynabautista@gmail.com>
+Date:   Thu Jun 1 23:11:09 2017 +0300
+
+    Merge pull request #1 from dmytrorevak/US02-Our-history_branch
+    
+    US02-About-us-section
+
+[33mcommit 3c518ca7509d661c8dab50f41064e4bc007ce253[m
+Merge: 9ca5adb 3657059
+Author: Iryna <irynabautista@gmail.com>
+Date:   Thu Jun 1 23:10:49 2017 +0300
+
+    Merge branch 'master' into US02-Our-history_branch
+
+[33mcommit 3657059c1e4dafd7a1e398b20961fe4a23f56a1d[m
+Merge: 8cecd4d dbc225f
+Author: Iryna <irynabautista@gmail.com>
+Date:   Thu Jun 1 22:57:19 2017 +0300
+
+    Merge pull request #2 from dmytrorevak/US01-Header_branch
+    
+    Us01 header branch
+
+[33mcommit 5c074c6079a8105925ea0de49265681ed0d199c1[m
+Merge: ce7963b 16a7c58
+Author: JanaStepanchak <jana.stepanchak@gmail.com>
+Date:   Wed May 31 12:21:30 2017 +0300
+
+    Merge pull request #4 from dmytrorevak/master
+    
+    Merge pull request #3 from dmytrorevak/JS
+
+[33mcommit 16a7c581fc383a6c7f2642322d8d52502849ceb9[m
+Merge: 8cecd4d ce7963b
+Author: JanaStepanchak <jana.stepanchak@gmail.com>
+Date:   Wed May 31 11:37:27 2017 +0300
+
+    Merge pull request #3 from dmytrorevak/JS
+    
+    Pricing-...-Check_Out
+
+[33mcommit 9ca5adbaa0b449afba85266f6ac3b63d2acdb818[m
+Author: iriza7 <irynabautista@gmail.com>
+Date:   Mon May 29 02:42:11 2017 +0300
+
+    'fix_background_img_cover_size'
+
+[33mcommit e9e5ffb21d52083385cd6c4c3eaa9199c90c2db4[m
+Author: iriza7 <irynabautista@gmail.com>
+Date:   Mon May 29 02:35:09 2017 +0300
+
+    'add_hover_for_content_items'
+
+[33mcommit ef9c98b99a3206f2c1822b3f4c3568f728eb5ad8[m
+Author: iriza7 <irynabautista@gmail.com>
+Date:   Mon May 29 02:23:50 2017 +0300
+
+    'add_hover_for_contet_items'
+
+[33mcommit f09ef53bd438ab20925c91bfef32525fd32949b1[m
+Author: iriza7 <irynabautista@gmail.com>
+Date:   Mon May 29 01:45:22 2017 +0300
+
+    'added_hover_to_border_ellipses_items'
+
+[33mcommit 0cb0d1f8fec2be20816bd147b56626b2ec252c44[m
+Author: iriza7 <irynabautista@gmail.com>
+Date:   Mon May 29 01:43:08 2017 +0300
+
+    'added_hover_to_about-us_btn'
+
+[33mcommit 9b7dc50a692aa48a55375c5a40f83a590391ac7a[m
+Author: iriza7 <irynabautista@gmail.com>
+Date:   Mon May 29 01:14:22 2017 +0300
+
+    'fix_ellipses_border_n_position'
+
+[33mcommit da3da33d3ad8ec18b6160dc48251dff030de67ce[m
+Author: iriza7 <irynabautista@gmail.com>
+Date:   Mon May 29 00:10:23 2017 +0300
+
+    'fix_paddings'
+
+[33mcommit 9c0c36bfb1e4f18119e43d868bfa139fedc206ef[m
+Author: Vasyl Zadorozhnyi <amdpaxton@gmail.com>
+Date:   Fri May 26 05:38:37 2017 +0300
+
+    added menu hover option, fixed colors
+
+[33mcommit 6521684f9e071a083822fb35603d4d94c58fc01b[m
+Author: Vasyl Zadorozhnyi <amdpaxton@gmail.com>
+Date:   Thu May 25 19:20:36 2017 +0300
+
+    fixed skew element in menu
+
+[33mcommit dbc225f58931cce59256832706ba9cda775c41c5[m
+Author: dmytrorevak <dmytro27@gmail.com>
+Date:   Wed May 24 12:40:39 2017 +0300
+
+    add slider button arrow
+
+[33mcommit ce7963ba75c03c4f6147b5d872edbeba25ced3de[m
+Author: JanaStepanchak <jana.stepanchak@gmail.com>
+Date:   Tue May 23 02:24:25 2017 +0300
+
+    Pricing-...-Check_Out
+
+[33mcommit 3bbaf02286cfca18e32c955dd970d4cab20fceff[m
+Author: iriza7 <irynabautista@gmail.com>
+Date:   Sun May 21 13:48:22 2017 +0300
+
+    'Add_title,text,content,ellips
