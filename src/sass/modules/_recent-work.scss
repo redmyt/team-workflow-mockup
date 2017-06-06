@@ -26,6 +26,9 @@
   line-height: 10px;
 }
 
+.recent-work-content-images {
+  width: 25%;
+}
 
 .recent-work-content {
   flex-wrap: wrap;
@@ -48,47 +51,7 @@ li:hover {
   font-weight: bold;
 }
 
-.content-image {
-  max-width: 25%;
-  position: relative;
-}
 
 
-.recent-work-separator {
-  color: #999999;
-}
 
-.recent-work-content figure {
-  background: #BD4134;
-}
 
-.recent-work-content figure img {
-  opacity: 100;
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-}
-
-.recent-work-content figure:hover .recent-work-content-images {
-  opacity: .2;
-}
-
-.your-brand-text {
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-  opacity: 0;
-  position: absolute;
-  bottom: -300px;
-  color: white;
-  font-size: 25px;
-  padding-left: 10%;
-  border-top: 2px solid white;
-  pointer-events: none;
-  text-align: left;
-  padding-top: 30px;
-  line-height: 10px;
-}
-
-figure:hover + .your-brand-text {
-  opacity: 1;
-  bottom: 300px;
-}
