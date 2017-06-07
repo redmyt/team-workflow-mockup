@@ -1,50 +1,86 @@
 section.recent-work-section
-    h1.recent-works-title.flex.
-        RECENT WORKS
-    h5.recent-works-description.flex.
-        It has survived not only five centuries, but also the leap scrambled it to make a type.
-    span.separator.recent-work-separator
+    h1.recent-works-title.flex RECENT WORKS
+    h5.recent-works-description.flex
+        | It has survived not only five centuries, but also the leap scrambled it to make a type.
+    .recent-work-separator-wrapper
+        span.recent-work-separator
     section.recent-work-menu-wrapper.flex
-        ul.recent-works-menu.flex
+        ul.recent-work-menu.flex
             li.menu-item
-                a(href='#').menu-link ALL
+                a.menu-link(href='#') ALL
                     each item in ['PRINT DESIGN', 'ANIMATION', 'ART', 'WEB DESIGN', 'PHOTOGRAPHY', 'VIDEO']
                         li.menu-item
-                            a.menu-link=item
-    div.recent-work-content.flex
-        div.content-image
+                            a.menu-link(href='#')=item
+    .recent-work-content.flex
+        .content-image
             figure
                 a(href='#')
-                    img.recent-work-content-images(src="images/Welcome-to-chomok.jpg" alt="#")
-        div.content-image
+                    img.recent-work-content-images(src='images/Welcome-to-chomok.jpg', alt='#')
+            .image-hover-overlay
+                section.image-text-overlay-wrapper
+                    p.image-text-line
+                    p.image-first-text T–SHIRT DESIGN
+                    p.image-second-text art / t-shirt
+        .content-image
             figure
                 a(href='#')
-                    img.recent-work-content-images(src="images/Your-brand.jpg" alt="#")
-            span.your-brand-text
-                | T-SHIRT DESIGN
-                br
-                h5 art / t-shirt
-        div.content-image
+                    img.recent-work-content-images(src='images/Your-brand.jpg', alt='#')
+            .image-hover-overlay
+            section.image-text-overlay-wrapper
+                p.image-text-line
+                p.image-first-text T–SHIRT DESIGN
+                p.image-second-text art / t-shirt
+        .content-image
             figure
                 a(href='#')
-                    img.recent-work-content-images(src="images/Jonathan-Doe.jpg" alt="#")
-        div.content-image
+                    img.recent-work-content-images(src='images/Jonathan-Doe.jpg', alt='#')
+            .image-hover-overlay
+                section.image-text-overlay-wrapper
+                    p.image-text-line
+                    p.image-first-text T–SHIRT DESIGN
+                    p.image-second-text art / t-shirt
+        .content-image
             figure
                 a(href='#')
-                    img.recent-work-content-images(src="images/Place-your-image.jpg" alt="#")
-        div.content-image
+                    img.recent-work-content-images(src='images/Place-your-image.jpg', alt='#')
+            .image-hover-overlay
+                section.image-text-overlay-wrapper
+                    p.image-text-line
+                    p.image-first-text T–SHIRT DESIGN
+                    p.image-second-text art / t-shirt
+        .content-image
             figure
                 a(href='#')
-                    img.recent-work-content-images(src="images/Truck-transport.jpg" alt="#")
-        div.content-image
+                    img.recent-work-content-images(src='images/Truck-transport.jpg', alt='#')
+            .image-hover-overlay
+                section.image-text-overlay-wrapper
+                    p.image-text-line
+                    p.image-first-text T–SHIRT DESIGN
+                    p.image-second-text art / t-shirt
+        .content-image
             figure
                 a(href='#')
-                    img.recent-work-content-images(src="images/Our-offers.jpg" alt="#")
-        div.content-image
+                    img.recent-work-content-images(src='images/Our-offers.jpg', alt='#')
+            .image-hover-overlay
+                section.image-text-overlay-wrapper
+                    p.image-text-line
+                    p.image-first-text T–SHIRT DESIGN
+                    p.image-second-text art / t-shirt
+        .content-image
             figure
                 a(href='#')
-                    img.recent-work-content-images(src="images/Blockies.jpg" alt="#")
-        div.content-image
+                    img.recent-work-content-images(src='images/Blockies.jpg', alt='#')
+            .image-hover-overlay
+                section.image-text-overlay-wrapper
+                    p.image-text-line
+                    p.image-first-text T–SHIRT DESIGN
+                    p.image-second-text art / t-shirt
+        .content-image
             figure
                 a(href='#')
-                    img.recent-work-content-images(src="images/North.jpg" alt="#")
+                    img.recent-work-content-images(src='images/North.jpg', alt='#')
+            .image-hover-overlay
+                section.image-text-overlay-wrapper
+                    p.image-text-line
+                    p.image-first-text T–SHIRT DESIGN
+                    p.image-second-text art / t-shirt
