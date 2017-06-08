@@ -1,0 +1,99 @@
+.bottom-wrapper{
+  position: relative;
+  width: inherit;
+  background: rgb(32,32,32);
+  flex-direction: column;
+}
+
+.promo{
+  height: 480px;
+  background: {
+    image: url("../images/promo.jpg");
+    size: cover;
+    position: center;
+    repeat: no-repeat;
+  }
+  background-color: rgb(102,102,102);
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+
+}
+.footer-social{
+  height: 90px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.icons{
+  margin: auto;
+
+}
+
+.social{
+  padding: 0.40%;
+  list-style-type: none;
+  cursor: pointer;
+  &:hover{
+    border: 2px solid #999999;
+  }
+}
+
+.c-rights{
+  margin: auto;
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: rgba(153, 153, 153, 0.749);
+  line-height: 1.714;
+  text-align: left;
+
+}
+
+.promo-red-button{
+  width: 225px;
+  height: 56px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  cursor: pointer;
+  background-color: rgb(231, 76, 60);
+  cursor: pointer;
+  &:hover{
+    border: 2px solid #999999;
+  }
+
+}
+.promo-title{
+  font-size: 36px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  line-height: 0.833;
+}
+.promo-text{
+  font-size: 18px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  line-height: 0.833;
+}
+.up-arrow{
+  border-radius: 50%;
+  background-color: rgb(231, 76, 60);
+  position: relative;
+  bottom: 25px;
+  right: 100%;
+  width: 50px;
+  height: 50px;
+  font-size: 26px;
+  font-family: "FontAwesome";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  cursor: pointer;
+
+
+  &:hover{
+    border-color: #999999;
+  }
+
+
+}

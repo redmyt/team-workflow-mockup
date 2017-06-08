@@ -1,0 +1,41 @@
+.Contacts
+    .contacts-wrapper.flex
+        center.contacts-header
+            p.keep-in-touch KEEP IN TOUCH
+            p.contacts-header-text Please fill out the form and send a message to us. We can call you back.
+            div.delimiter
+                div.d-line
+                div.red-circle
+                div.d-line
+        div.contacts-main-content.flex
+            div.address-information
+                div.forms.flex
+
+                    p.address-red-text OUR ADDRESS
+                    p.contacts-text Ivana Franka 61 (room 500), Lviv, 79000, Ukraine
+
+                    p.address-red-text CALL US
+                    p.contacts-text +380991770859, +380637887118
+
+                    p.address-red-text EMAIL US
+                    p.contacts-text dmytro27@gmail.com
+            div.message-to-us
+                div.forms.flex
+                    form(action="")
+                        p.contacts-text Name
+                            input#form.field(name="name" required)
+                            hr.field-lines
+
+                            p.contacts-text Email
+                            input.field(name="emailaddress" type="email" required)
+                            hr.field-lines
+
+                            p.contacts-text Subject
+                            input.field(name="subject" required)
+                            hr.field-lines
+
+                            p.contacts-text Message
+                            textarea.field(rows="2" cols="50" name="message" required)
+                            hr.field-lines
+                            input.forms-red-button(name="submit" type="submit" value="SEND MESSAGE")
+

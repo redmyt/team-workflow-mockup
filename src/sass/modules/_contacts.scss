@@ -1,0 +1,120 @@
+.contacts-wrapper{
+  position: relative;
+  background-color: rgb(244,245,249);
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px;
+}
+
+.keep-in-touch{
+  margin-top: 50px;
+  font-size: 36px;
+  font-family: "Source Sans Pro";
+  color: rgb(106, 106, 106);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.556;
+}
+
+.contacts-header-text{
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: rgb(153, 153, 153);
+  line-height: 1.5;
+  padding: 5px;
+}
+
+.delimiter{
+  width: 100%;
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.d-line{
+  background-color: rgb(153, 153, 153);
+  width: 80px;
+  margin: 4px;
+  height: 0px;
+  padding: 1px;
+}
+.red-circle{
+  border-radius: 50%;
+  background-color: rgb(231, 76, 60);
+  width: 7px;
+  height: 7px;
+}
+
+.contacts-main-content {
+  justify-content: center;
+  margin: 4.5%;
+}
+
+
+.address-information{
+  width: auto;
+  height: 560px;
+  background-color: rgb(255, 255,255);
+  margin: 15px;
+}
+
+.contacts-text{
+  font-size: 18px;
+  font-family: "Open Sans";
+  color: rgb(153, 153, 153);
+  line-height: 1.333;
+  text-align: left;
+}
+
+.address-red-text{
+  font-size: 24px;
+  font-family: "Source Sans Pro";
+  color: rgb(231, 78, 62);
+  line-height: 1;
+  text-align: left;
+}
+
+.forms{
+  padding: 12%;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.message-to-us{
+  width: auto;
+  flex-grow: 1.4;
+  height: 560px;
+  background-color: rgb(255, 255,255);
+  margin: 15px;
+}
+.field{
+  text-align: left;
+  border-style: hidden;
+  outline: none;
+  width: 100%;
+}
+.field-lines{
+  text-align: left;
+  border-width: 0.5px;
+  border-color: rgb(153, 153, 153);
+  opacity: 0.251;
+  width: 100%;
+}
+
+textarea{
+  resize: none;
+}
+.forms-red-button{
+  background-color: rgb(231, 76, 60);
+  width: 225px;
+  height: 56px;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 2.857;
+  cursor: pointer;
+  &:hover{
+    border: 2px solid #999999;
+  }
+}
