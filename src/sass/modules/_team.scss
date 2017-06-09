@@ -1,0 +1,243 @@
+.Our-team{
+  position: relative;
+  width: inherit;
+  height: 744px;
+  background: {
+    image: url("../images/team.png");
+    size: cover;
+    position: center;
+    repeat: no-repeat;
+  }
+}
+.our-team-wrapper{
+  background: {
+    image: url("../images/rectangle-team.png");
+    size: cover;
+    position: center;
+    repeat: no-repeat;
+    opacity: 0.749;
+  }
+  position: inherit;
+  height: 744px;
+  justify-content: center;
+}
+.block-header{
+  padding: 80px;
+}
+.block-title{
+  margin-top: 50px;
+  font-size: 36px;
+  font-family: "Source Sans Pro";
+  color: rgb(106, 106, 106);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.556;
+}
+
+.block-text{
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: rgb(153, 153, 153);
+  line-height: 1.5;
+  padding: 5px;
+}
+
+.delimiter{
+  width: 100%;
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+
+}
+
+.d-line{
+  background-color: rgb(153, 153, 153);
+  width: 80px;
+  margin: 4px;
+  height: 0px;
+  padding: 1px;
+}
+.red-circle{
+  border-radius: 50%;
+  background-color: rgb(231, 76, 60);
+  width: 7px;
+  height: 7px;
+}
+.our-team-footer{
+  background: {
+    image: url("../images/shape-174-team.png");
+    size: cover;
+    position: center;
+    repeat: no-repeat;
+    opacity: 0.102;
+  }
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 652px;
+}
+.our-team-footer-line{
+  background: {
+    image: url("../images/shape-174-line-team.png");
+    size: cover;
+    position: center;
+    repeat: no-repeat;
+  }
+  position: relative;
+  width: 100%;
+  height: 514px;
+}
+
+.faces{
+  border-radius: 50%;
+  border: 3px solid rgb(231, 76, 60);
+  width: 48px;
+  height: 48px;
+  background: {
+    size: cover;
+    position: center;
+    repeat: no-repeat;
+  };
+}
+
+.team-text{
+  color: #e74e3e;
+  font-size: 0;
+}
+
+
+.Dmytro{
+  position: absolute;
+  left: 18%;
+  top: 315px;
+  flex-direction: column;
+  align-items: center;
+}
+.Dmytro:hover { .team-text-Dmytro{
+  font-size: 24px;
+  font-family: "Open Sans";
+  color: rgb(231, 76, 60);
+}
+  .team-photo-Dmytro{
+    border: 5px solid rgb(231, 76, 60);
+    width: 79px;
+    height: 79px;
+    background-size: cover;
+    box-shadow: 3px 5px 12.75px 2.25px rgba(231, 76, 60, 0.7);
+
+  }
+  top: 295px;
+}
+.team-photo-Dmytro{
+  background-image: url("../images/Dmytro.gif");
+}
+
+
+
+.Iriza7{
+  position: absolute;
+  left: 32.5%;
+  top: 295px;
+  flex-direction: column;
+  align-items: center;
+}
+.Iriza7:hover { .team-text-Iriza7{
+  font-size: 24px;
+  font-family: "Open Sans";
+  color: rgb(231, 76, 60);
+}
+  .team-photo-Iriza7{
+    border: 5px solid rgb(231, 76, 60);
+    width: 79px;
+    height: 79px;
+    background-size: cover;
+    box-shadow: 3px 5px 12.75px 2.25px rgba(231, 76, 60, 0.7);
+
+  }
+  top: 270px;
+}
+.team-photo-Iriza7{
+  background-image: url("../images/Iriza7.gif");
+}
+
+
+.Bandershtat{
+  position: absolute;
+  left: 47%;
+  top: 295px;
+  flex-direction: column;
+  align-items: center;
+}
+.Bandershtat:hover { .team-text-Bandershtat{
+  font-size: 24px;
+  font-family: "Open Sans";
+  color: rgb(231, 76, 60);
+}
+  .team-photo-Bandershtat{
+    border: 5px solid rgb(231, 76, 60);
+    width: 79px;
+    height: 79px;
+    background-size: cover;
+    box-shadow: 3px 5px 12.75px 2.25px rgba(231, 76, 60, 0.7);
+
+  }
+  top: 280px;
+}
+.team-photo-Bandershtat{
+  background-image: url("../images/Bandershtat.gif");
+}
+
+
+.JanaStepanchak{
+  position: absolute;
+  left: 61.5%;
+  top: 325px;
+  flex-direction: column;
+  align-items: center;
+}
+.JanaStepanchak:hover { .team-text-JanaStepanchak{
+  font-size: 24px;
+  font-family: "Open Sans";
+  color: rgb(231, 76, 60);
+}
+  .team-photo-JanaStepanchak{
+    border: 5px solid rgb(231, 76, 60);
+    width: 79px;
+    height: 79px;
+    background-size: cover;
+    box-shadow: 3px 5px 12.75px 2.25px rgba(231, 76, 60, 0.7);
+
+  }
+  top: 305px;
+}
+.team-photo-JanaStepanchak{
+  background-image: url("../images/JanaStepanchak.gif");
+}
+
+
+.Alyona26{
+  position: absolute;
+  left: 76%;
+  top: 330px;
+  flex-direction: column;
+  align-items: center;
+}
+.Alyona26:hover { .team-text-Alyona26{
+  font-size: 24px;
+  font-family: "Open Sans";
+  color: rgb(231, 76, 60);
+}
+  .team-photo-Alyona26{
+    border: 5px solid rgb(231, 76, 60);
+    width: 79px;
+    height: 79px;
+    background-size: cover;
+    box-shadow: 3px 5px 12.75px 2.25px rgba(231, 76, 60, 0.7);
+
+  }
+  top: 310px;
+}
+.team-photo-Alyona26{
+  background-image: url("../images/Alyona26.gif");
+}
