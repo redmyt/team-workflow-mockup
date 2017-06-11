@@ -5,3 +5,24 @@ $binoDarkGrey2: #6a6a6a;
 $binoLightGrey: #999999;
 $binoWhite2: #f4f5f9;
 $binoWhite: #fff;
+
+@media screen and (max-width: 960px) {
+  .pricing-price-border {
+    width: 50%;
+    height: 22%;
+    top: -10%;
+    left: 23%; } }
+
+@media screen and (max-width: 768px) {
+  .pricing-price-border {
+    width: 50%;
+    height: 15%;
+    top: -8%;
+    left: 23%; } }
+
+@media screen and (min-width: 960px) {
+  .pricing-price-border {
+    width: 50%;
+    height: 25%;
+    top: -13%;
+    left: 23%; } }
