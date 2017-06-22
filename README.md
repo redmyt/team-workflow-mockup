@@ -8,6 +8,8 @@ It is great for software company, build agency, personal portfolio and product w
 ## Used Technologies/Tools:
 HTML, CSS, pug, scss, JSON, Gulp, NPM, Git
 
+![bino-website-layout](https://user-images.githubusercontent.com/6391522/27459336-6bb27ef8-57b6-11e7-815d-b24ab9376224.png)
+
 ## GitHub nicknames list of developers team:
 * [Dmytro](https://github.com/dmytro-revak)
 * [Iryna](https://github.com/iriza7)
