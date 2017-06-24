@@ -13,7 +13,7 @@ gulp.task('sass', function () {
         }))
         .pipe(sass())
         .pipe(autopref())
-        // .pipe( cleanCSS() )
+        .pipe( cleanCSS() )
         .pipe(gulp.dest('build/css'));
 });
 
