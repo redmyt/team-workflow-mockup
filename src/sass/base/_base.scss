@@ -18,7 +18,9 @@ figure {
     }
 }
 
-button {
+button,
+input[type="button"],
+input[type="submit"] {
     box-shadow: none;
     border: none;
     outline: none;
