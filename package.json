@@ -1,7 +1,7 @@
 {
     "name": "team-workflow-mockup",
     "version": "1.0.0",
-    "description": "* [iriza7](https://github.com/iriza7)\r * [Vasyl](https://github.com/Banderstadt)",
+    "description": "* [iriza7](https://github.com/iriza7)\r * [Vasyl](https://github.com/Banderstadt) * [Jana](https://github.com/JanaStepanchak) ",
     "main": "gulpfile.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
